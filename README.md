@@ -32,4 +32,31 @@ The data was organized and cleaned in Google Sheets.
 The average GDP was calculated using:
 
 ```excel
+Then the result was converted into trillion USD:
+
+```excel
+=H2/1000000
+```
+
+## Files
+
+- `eu-gdp-analysis-2020-2025.xlsx` — spreadsheet file
+- `table.png` — cleaned final table
+- `bar-chart.png` — GDP comparison chart
+
+## Final Table
+
+![GDP Table](table.png)
+
+## Visualization
+
+![GDP Bar Chart](bar-chart.png)
+
+## Key Insight
+
+Germany had the highest average GDP among the selected EU countries during 2020–2025, followed by France and Italy.
+
+## License
+
+This project is licensed under the MIT License.
 =AVERAGE(B2:G2)
